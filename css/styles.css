@@ -1,0 +1,112 @@
+/* колір основного тексту #000000; */
+
+/*вторинний колір в футері rgba(255, 255, 255, 0.6) */
+
+/* білий  #FFFFFF */
+
+/* сірий  #757575 */
+
+/* синій  кнопоки + акцент  #2196F3 */
+
+/* вторинний колір фону іконок #F5F4FA */
+
+:root {
+    --primary-text-color: #757575; 
+    --title-text-color: #212121;
+    --minor-text-color:#F5F4FA;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    
+}
+
+body {
+    background-color:#FFFFFF;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Logo link*/
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-blue {
+    color: var(--accent-color); 
+}
+.logo-black{
+    color: #000000;
+}
+
+
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.contacts .cont-link{
+    color:  var(--primary-text-color);
+}
+.contacts .cont-link:hover,
+.contacts .cont-link:focus{
+    color: var(--accent-color);
+}
+
+/*title*/
+
+
+
+
+/* оформлення секцій і заголовків*/
+
+.hero-title {
+    color: var(--primary-bg-color);
+    font-size: 44px;
+}
+
+.section-title{
+    color:  var(--title-text-color);
+}
+
+
+   
+/*button*/
+
+.button {
+    color:var(--primary-bg-color);
+    background: var(--accent-color);
+   
+}
+
+.button.primary {
+    color:var(--primary-bg-color);
+    background: var(--accent-color);
+}
+
+/*-------------portfolio------------*/
+
+.filters{
+    color: var(--accent-color);
+}
+
